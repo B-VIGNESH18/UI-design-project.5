@@ -1,0 +1,29 @@
+.sales-information {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.frame-group,
+.sales-info-search {
+  position: absolute;
+  left: 0;
+  width: 1130px;
+}
+.frame-group {
+  top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-300);
+}
+.sales-info-search {
+  top: 95.9px;
+  height: 150px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,119 @@
+.frame-child {
+  position: absolute;
+  top: 149px;
+  left: 0;
+  background-color: var(--color-mediumslateblue);
+  width: 3px;
+  height: 39px;
+}
+.dashboard {
+  position: absolute;
+  top: 0;
+  left: 39px;
+  letter-spacing: 0.02em;
+}
+.element-3-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+.dashboard-parent {
+  position: relative;
+  width: 131px;
+  height: 24px;
+  color: var(--color-mediumslateblue);
+}
+.lab-test {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  letter-spacing: 0.02em;
+  mix-blend-mode: normal;
+}
+.lab-test-parent {
+  position: relative;
+  width: 108px;
+  height: 24px;
+  opacity: 0.6;
+  color: var(--color-black);
+}
+.appointment {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  letter-spacing: 0.02em;
+}
+.appointment-parent,
+.medicine-order-parent {
+  position: relative;
+  width: 149px;
+  height: 24px;
+  opacity: 0.6;
+}
+.medicine-order-parent {
+  width: 166px;
+}
+.message-parent,
+.payment-parent,
+.settings-parent {
+  position: relative;
+  width: 113px;
+  height: 24px;
+  opacity: 0.6;
+}
+.payment-parent,
+.settings-parent {
+  width: 114px;
+}
+.settings-parent {
+  width: 107px;
+}
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+}
+.help-parent {
+  position: relative;
+  width: 77px;
+  height: 24px;
+  opacity: 0.6;
+}
+.sidebar {
+  position: absolute;
+  top: 156px;
+  left: 41px;
+  height: 993px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-506xl);
+}
+.medico-sales {
+  position: absolute;
+  top: 55px;
+  left: 29px;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  color: var(--color-darkblue);
+}
+.frame1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 230px;
+  height: 1149px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}

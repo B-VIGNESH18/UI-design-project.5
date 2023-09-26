@@ -1,0 +1,6 @@
+.notification-icon {
+  position: relative;
+  border-radius: var(--br-10xs);
+  width: 52px;
+  height: 52px;
+}

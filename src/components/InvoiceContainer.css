@@ -1,0 +1,120 @@
+.date,
+.invoice-id {
+  position: absolute;
+  top: 0;
+  left: 72px;
+  font-weight: 600;
+}
+.date {
+  left: 251px;
+}
+.customer1,
+.due,
+.paid-amount,
+.payable-amount {
+  position: absolute;
+  top: 0;
+  left: 391px;
+  font-weight: 600;
+}
+.due,
+.paid-amount,
+.payable-amount {
+  left: 573px;
+}
+.due,
+.paid-amount {
+  left: 809px;
+}
+.due {
+  left: 1015px;
+}
+.frame-item {
+  position: absolute;
+  top: 47.5px;
+  left: 0;
+  width: 1130px;
+  height: 1px;
+}
+.minus-square-icon {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 24px;
+  height: 24px;
+}
+.invoice-id-parent {
+  position: relative;
+  width: 1130px;
+  height: 48px;
+  font-family: var(--font-lato);
+}
+.ahga68 {
+  position: absolute;
+  top: 0;
+  left: 72px;
+  color: var(--color-mediumslateblue);
+}
+.div,
+.div1,
+.div2,
+.div3,
+.jacob-marcus {
+  position: absolute;
+  top: 0;
+  left: 251px;
+  opacity: 0.65;
+}
+.div1,
+.div2,
+.div3,
+.jacob-marcus {
+  left: 391px;
+}
+.div1,
+.div2,
+.div3 {
+  left: 573px;
+}
+.div2,
+.div3 {
+  left: 809px;
+}
+.div3 {
+  left: 1015px;
+}
+.ahga68-parent {
+  position: relative;
+  width: 1130px;
+  height: 48px;
+}
+.frame-child7 {
+  position: absolute;
+  top: 47.5px;
+  left: 0;
+  width: 1130px;
+  height: 0.5px;
+}
+.frame-container {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.table {
+  position: absolute;
+  top: 285.9px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  width: 1130px;
+  height: 774px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
